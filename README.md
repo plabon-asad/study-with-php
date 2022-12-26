@@ -24,8 +24,8 @@ By default, some keywords are reserved for Blade's internal use in order to rend
 `data`, `render`, `resolveView`, `shouldRender`, `view`, `withAttributes`, `withName`
 
 
-## ❌MySql Error ##
+## ❌ Error List ##
 | ❗Error | ✅Solution | Description |
 | ------ | ------ |------ |
-| XAMPP - [Shutdown MySql](https://i.stack.imgur.com/j8ntw.png) | [See here](https://i.stack.imgur.com/uyvBO.png) | [Details](https://stackoverflow.com/questions/18022809/how-to-solve-error-mysql-shutdown-unexpectedly) |
+| XAMPP - [Shutdown MySql](https://i.stack.imgur.com/j8ntw.png) | [See here](https://i.stack.imgur.com/uyvBO.png) | To learn PHP and Laravel I stucked many times for many kind of issues. Here `MySql` crushed sudden. [See Details](https://stackoverflow.com/questions/18022809/how-to-solve-error-mysql-shutdown-unexpectedly) |
 

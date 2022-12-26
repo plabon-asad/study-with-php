@@ -22,3 +22,10 @@ There are two primary ways to tackle frontend development when building an appli
 ### 🔰Reserved Keywords: ###
 By default, some keywords are reserved for Blade's internal use in order to render components.<br>
 `data`, `render`, `resolveView`, `shouldRender`, `view`, `withAttributes`, `withName`
+
+
+## ❌MySql Error ##
+| ❗Error | ✅Solution | Description |
+| ------ | ------ |------ |
+| XAMPP - [Shutdown MySql](https://i.stack.imgur.com/j8ntw.png) | [See here](https://i.stack.imgur.com/uyvBO.png) | [Details](https://stackoverflow.com/questions/18022809/how-to-solve-error-mysql-shutdown-unexpectedly) |
+

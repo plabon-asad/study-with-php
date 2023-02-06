@@ -38,5 +38,7 @@ Some Basic Commands
 | Enable/Disabling Maintenance Mode | `php artisan down` `php artisan up` |
 | All available Artisan commands  | `php artisan list` |
 | Laravel Console  | `php artisan tinker` |
+| Migration  | `php artisan migrate` |
+| Rollback Migration  | `php artisan migrate:rollback`, rollback with step `php artisan migrate:rollback --step=5`, full rollback `php artisan migrate:reset` |
 
 

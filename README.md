@@ -36,4 +36,7 @@ Some Basic Commands
 | Run Laravel project | `php artisan serve` with port `php artisan serve --port=8080` |
 | About project | `php artisan about`, only interested in a particular section of the application overview `php artisan about --only=environment` |
 | Enable/Disabling Maintenance Mode | `php artisan down` `php artisan up` |
+| All available Artisan commands  | `php artisan list` |
+| Laravel Console  | `php artisan tinker` |
+
 

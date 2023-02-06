@@ -30,3 +30,8 @@ By default, some keywords are reserved for Blade's internal use in order to rend
 | ------ | ------ |------ |
 | XAMPP - [Shutdown MySql](https://i.stack.imgur.com/j8ntw.png) | [See here](https://i.stack.imgur.com/uyvBO.png) | To learn PHP and Laravel I stucked many times for many kind of issues. Here `MySql` crushed sudden. [See Details](https://stackoverflow.com/questions/18022809/how-to-solve-error-mysql-shutdown-unexpectedly) |
 
+Some Basic Commands
+| Description | Command |
+| ------ | ------ |
+| Run Laravel project | `php artisan serve` with port `php artisan serve --port=8080` |
+

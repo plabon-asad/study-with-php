@@ -13,6 +13,7 @@ Study for self development to be a PHP (Laravel) developer.
 | [See here](https://stackoverflow.com/questions/45790160/is-there-way-to-use-two-php-versions-in-xampp) | How to manage multiple version PHP in Windows 11 by XAMPP |
 | [Naming Convention](https://webdevetc.com/blog/laravel-naming-conventions) | Laravel Naming Convention |
 | [Best Practices](https://github.com/alexeymezenin/laravel-best-practices#follow-laravel-naming-conventions) | Laravel Best Practices |
+| [Laravel Storage](https://medium.com/p/33b66cfa8c2c) | Laravel storage guide |
 
 
 ❗Some important keywords of Laravel - 

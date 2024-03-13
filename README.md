@@ -50,4 +50,51 @@ Some Basic Commands
 | Migration  | `php artisan migrate` |
 | Rollback Migration  | `php artisan migrate:rollback`, rollback with step `php artisan migrate:rollback --step=5`, full rollback `php artisan migrate:reset` |
 
+Certainly! Laravel provides a rich set of query builder methods that allow you to interact with your database in a convenient and expressive way. Here are some commonly used query builder methods in Laravel:
 
+**Selecting Columns:**
+- `select('column1', 'column2')`: Specify columns to be retrieved.
+- `addSelect('column3')`: Add additional columns to the select clause.
+
+**Filtering Results:**
+- `where('column', 'value')`: Basic where clause.
+- `orWhere('column', 'value')`: Or where clause.
+- `whereBetween('column', [$start, $end])`: Where between a range.
+- `whereIn('column', [value1, value2])`: Where in an array of values.
+- `whereNull('column'), whereNotNull('column')`: Check for null or not null values.
+- `whereDate('column', '2022-01-01')`: Filter by date.
+- `whereRaw('column = ?', [$value])`: Raw where clause.
+
+**Ordering Results**:
+- `orderBy('column', 'asc')`: Order by a column in ascending or descending order.
+- `latest(), oldest()`: Order by the created_at or updated_at columns.
+
+**Joining Tables:**
+- `join('table', 'table.column', '=', 'other_table.column')`: Inner join.
+- `leftJoin('table', 'table.column', '=', 'other_table.column')`: Left join.
+- `rightJoin('table', 'table.column', '=', 'other_table.column')`: Right join.
+
+**Grouping and Aggregates:**
+- `groupBy('column')`: Group results by a column.
+- `count(), sum('column'), avg('column')`: Aggregate functions.
+
+**Eager Loading Relationships:**
+- `with('relation')`: Eager load relationships to avoid N+1 query issues.
+- `withCount('relation')`: Load relationship counts.
+
+**Inserting and Updating:**
+- `insert(['column' => 'value'])`: Insert a new record.
+- `update(['column' => 'new_value'])`: Update records.
+
+**Deleting Records:**
+- `delete()`: Delete records.
+
+**Pagination**:
+- `paginate($perPage)`: Paginate the results.
+
+**Other Methods:**
+- `distinct()`: Return only distinct results.
+- `limit($count)`: Limit the number of results.
+- `get()`: Retrieve the results.
+
+These are just a few examples of the many methods available in Laravel's query builder. Laravel's documentation provides extensive information on each of these methods, including examples and use cases. You can refer to the official documentation for more details: Laravel Query Builder.

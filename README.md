@@ -1,6 +1,28 @@
 # Study with PHP and Laravel
 Study for self development to be a PHP (Laravel) developer.
 
+## Deployment [Link](https://learnwith.polashmahmud.com/courses/deploy-laravel-and-vue-js-project-with-linux-server-(vps))
+### Requirements
+- Install os(Linux: ubuntu)
+- Install ngnix, DB server
+- Install language (PHP, all package that are needed)
+- Install composer and config
+- Install git and add ssh_public_key
+
+### Server Management
+- Root user (all permission)
+- Create new user (specific permission)
+
+- Login server and then Add user `adduser user_name`
+- Login to new_user from root_user `su user_name` and check `pwd`
+- ssh-key add `ssh-keygen`
+
+- Ngnix: default user update by myself_user
+- Goto config file `nano /etc/ nginx/nginx.conf` and default user is: `www-data`. Update it by `myself_user` then save it and restart ngnix `service ngnix restart`
+
+- Make directory for all project like **laravel** or **vue**
+
+
 # Pre Requirements to config Laravel (Windows11)
  - Xampp install (Apache, Mysql)
  - PG install with PG Admin
